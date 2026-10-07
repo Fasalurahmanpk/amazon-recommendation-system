@@ -1,0 +1,14 @@
+pandas
+numpy
+scipy
+scikit-learn
+scikit-surprise
+pyarrow
+matplotlib
+seaborn
+jupyter
+ipykernel
+# API backend (RecomAI)
+fastapi
+uvicorn[standard]
+psutil

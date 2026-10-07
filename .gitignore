@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Large datasets
+*.jsonl
+*.csv
+*.parquet
+*.zip
+
+# ML models / generated artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data directories
+data/
+datasets/
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated outputs
+outputs/
+artifacts/
+checkpoints/
+
+# Frontend build/cache
+frontend/.vite/
+frontend/.cache/
+
+# Large archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
